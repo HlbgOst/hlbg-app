@@ -20,9 +20,6 @@
   <!-- Android / Browser -->
   <link rel="icon" href="iphone-full-lion-512.png">
 
-  <!-- Weiterleitung -->
-  <meta http-equiv="refresh" content="1; url=https://www.hohenlimburg-ost.de">
-
   <!-- Styling -->
   <style>
     body {
@@ -34,12 +31,19 @@
       height: 100vh;
     }
     img {
-      width: 160px;
+      width: 170px;
     }
   </style>
 </head>
 
 <body>
   <img src="iphone-full-lion-512.png" alt="HLBG Ost Logo">
+
+  <!-- Weiterleitung mit Verzögerung (WICHTIG für iPhone) -->
+  <script>
+    setTimeout(function() {
+      window.location.href = "https://www.hohenlimburg-ost.de";
+    }, 3000);
+  </script>
 </body>
 </html>
