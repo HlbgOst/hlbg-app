@@ -4,18 +4,29 @@
   <meta charset="UTF-8">
   <title>HLBG Ost</title>
 
+  <!-- PWA -->
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#000000">
 
+  <!-- WICHTIG: iPhone App Icon -->
   <link rel="apple-touch-icon" href="icon-new-512.png">
+  <link rel="apple-touch-icon-precomposed" href="icon-new-512.png">
 
+  <!-- iOS Einstellungen -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="HLBG Ost">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
+  <!-- Android / Chrome -->
+  <link rel="icon" href="icon-new-192.png">
+
+  <!-- AUTOMATISCHE WEITERLEITUNG -->
   <meta http-equiv="refresh" content="1; url=https://www.hohenlimburg-ost.de">
 
+  <!-- Design -->
   <style>
     body {
+      margin: 0;
       background: black;
       display: flex;
       justify-content: center;
@@ -23,11 +34,12 @@
       height: 100vh;
     }
     img {
-      width: 150px;
+      width: 160px;
     }
   </style>
 </head>
+
 <body>
-  <img src="icon-new-512.png">
+  <img src="icon-new-512.png" alt="HLBG Ost Logo">
 </body>
 </html>
